@@ -1,0 +1,21 @@
+.wrapper {
+        width: 100px;
+        height: 100px;
+        padding-left: 50px;
+        background-color: green;
+        display: flex;
+        align-items: center;
+}
+
+.wrapper:hover {
+        animation-name: change;
+        animation-duration: 5s;
+
+}
+
+@keyframes change {
+        from {border-radius: 0%;
+        background-color: green;}
+        to {border-radius: 50%;
+        background-color: orange}
+}
